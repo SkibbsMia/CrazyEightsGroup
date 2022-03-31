@@ -108,7 +108,10 @@ namespace CrazyEightsGroupProject
             }
         }
 
-
+        /// <summary>
+        /// A toString function
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return CardNumber.ToString() + " of " + CardSuit.ToString();
