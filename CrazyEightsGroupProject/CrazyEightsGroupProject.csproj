@@ -1,0 +1,138 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Classic\Back.png" />
+    <None Remove="Classic\C1.png" />
+    <None Remove="Classic\C10.png" />
+    <None Remove="Classic\C11.png" />
+    <None Remove="Classic\C12.png" />
+    <None Remove="Classic\C13.png" />
+    <None Remove="Classic\C2.png" />
+    <None Remove="Classic\C3.png" />
+    <None Remove="Classic\C4.png" />
+    <None Remove="Classic\C5.png" />
+    <None Remove="Classic\C6.png" />
+    <None Remove="Classic\C7.png" />
+    <None Remove="Classic\C8.png" />
+    <None Remove="Classic\C9.png" />
+    <None Remove="Classic\D1.png" />
+    <None Remove="Classic\D10.png" />
+    <None Remove="Classic\D11.png" />
+    <None Remove="Classic\D12.png" />
+    <None Remove="Classic\D13.png" />
+    <None Remove="Classic\D2.png" />
+    <None Remove="Classic\D3.png" />
+    <None Remove="Classic\D4.png" />
+    <None Remove="Classic\D5.png" />
+    <None Remove="Classic\D6.png" />
+    <None Remove="Classic\D7.png" />
+    <None Remove="Classic\D8.png" />
+    <None Remove="Classic\D9.png" />
+    <None Remove="Classic\H1.png" />
+    <None Remove="Classic\H10.png" />
+    <None Remove="Classic\H11.png" />
+    <None Remove="Classic\H12.png" />
+    <None Remove="Classic\H13.png" />
+    <None Remove="Classic\H2.png" />
+    <None Remove="Classic\H3.png" />
+    <None Remove="Classic\H4.png" />
+    <None Remove="Classic\H5.png" />
+    <None Remove="Classic\H6.png" />
+    <None Remove="Classic\H7.png" />
+    <None Remove="Classic\H8.png" />
+    <None Remove="Classic\H9.png" />
+    <None Remove="Classic\S1.png" />
+    <None Remove="Classic\S10.png" />
+    <None Remove="Classic\S11.png" />
+    <None Remove="Classic\S12.png" />
+    <None Remove="Classic\S13.png" />
+    <None Remove="Classic\S2.png" />
+    <None Remove="Classic\S3.png" />
+    <None Remove="Classic\S4.png" />
+    <None Remove="Classic\S5.png" />
+    <None Remove="Classic\S6.png" />
+    <None Remove="Classic\S7.png" />
+    <None Remove="Classic\S8.png" />
+    <None Remove="Classic\S9.png" />
+    <None Remove="Htp.png" />
+    <None Remove="Main.jpg" />
+    <None Remove="Main1.jpg" />
+    <None Remove="playing-cards.jpg" />
+    <None Remove="table.jpg" />
+    <None Remove="will.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Classic\Back.png" />
+    <Resource Include="Classic\C1.png" />
+    <Resource Include="Classic\C10.png" />
+    <Resource Include="Classic\C11.png" />
+    <Resource Include="Classic\C12.png" />
+    <Resource Include="Classic\C13.png" />
+    <Resource Include="Classic\C2.png" />
+    <Resource Include="Classic\C3.png" />
+    <Resource Include="Classic\C4.png" />
+    <Resource Include="Classic\C5.png" />
+    <Resource Include="Classic\C6.png" />
+    <Resource Include="Classic\C7.png" />
+    <Resource Include="Classic\C8.png" />
+    <Resource Include="Classic\C9.png" />
+    <Resource Include="Classic\D1.png" />
+    <Resource Include="Classic\D10.png" />
+    <Resource Include="Classic\D11.png" />
+    <Resource Include="Classic\D12.png" />
+    <Resource Include="Classic\D13.png" />
+    <Resource Include="Classic\D2.png" />
+    <Resource Include="Classic\D3.png" />
+    <Resource Include="Classic\D4.png" />
+    <Resource Include="Classic\D5.png" />
+    <Resource Include="Classic\D6.png" />
+    <Resource Include="Classic\D7.png" />
+    <Resource Include="Classic\D8.png" />
+    <Resource Include="Classic\D9.png" />
+    <Resource Include="Classic\H1.png" />
+    <Resource Include="Classic\H10.png" />
+    <Resource Include="Classic\H11.png" />
+    <Resource Include="Classic\H12.png" />
+    <Resource Include="Classic\H13.png" />
+    <Resource Include="Classic\H2.png" />
+    <Resource Include="Classic\H3.png" />
+    <Resource Include="Classic\H4.png" />
+    <Resource Include="Classic\H5.png" />
+    <Resource Include="Classic\H6.png" />
+    <Resource Include="Classic\H7.png" />
+    <Resource Include="Classic\H8.png" />
+    <Resource Include="Classic\H9.png" />
+    <Resource Include="Classic\S1.png" />
+    <Resource Include="Classic\S10.png" />
+    <Resource Include="Classic\S11.png" />
+    <Resource Include="Classic\S12.png" />
+    <Resource Include="Classic\S13.png" />
+    <Resource Include="Classic\S2.png" />
+    <Resource Include="Classic\S3.png" />
+    <Resource Include="Classic\S4.png" />
+    <Resource Include="Classic\S5.png" />
+    <Resource Include="Classic\S6.png" />
+    <Resource Include="Classic\S7.png" />
+    <Resource Include="Classic\S8.png" />
+    <Resource Include="Classic\S9.png" />
+    <Resource Include="Htp.png" />
+    <Resource Include="Main.jpg" />
+    <Resource Include="Main1.jpg" />
+    <Resource Include="playing-cards.jpg" />
+    <Resource Include="table.jpg" />
+    <Resource Include="will.jpg" />
+  </ItemGroup>
+
+</Project>
